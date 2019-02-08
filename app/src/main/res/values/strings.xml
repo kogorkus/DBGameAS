@@ -4,5 +4,10 @@
     <string name="app_name">DBGame</string>
 
     <string name="title_activity_ho_f">Hall Of Flame</string>
+    <string name="Counter">Количество игр</string>
+    <string name="Sum">Сумма очков</string>
+    <string name="Max">Максимум очков</string>
+    <string name="Players">Количество игроков</string>
+    <string name="OddEven">Процент четных и нечетных</string>
 
 </resources>

@@ -28,6 +28,7 @@ public class DBManager {
 	private DBManager(Context context) {
 		this.context = context;
 		db = context.openOrCreateDatabase(DB_NAME, Context.MODE_PRIVATE, null);
+
 		createTablesIfNeedBe(); 
 	}
 
@@ -53,6 +54,24 @@ public class DBManager {
 		}
 
 		return data;
+	}
+
+	public int countGames(){
+		Cursor cursor =  db.rawQuery("Select Count (*) From Results;", null);
+		cursor.moveToFirst();
+		return cursor.getInt(0);
+	}
+
+	public int countSum(){
+		Cursor cursor =  db.rawQuery("Select Sum (Score) From Results ;", null);
+		cursor.moveToFirst();
+		return cursor.getInt(0);
+	}
+
+	public int countMax(){
+		Cursor cursor =  db.rawQuery("Select Max (Score) From Results ;", null);
+		cursor.moveToFirst();
+		return cursor.getInt(0);
 	}
 
 	private void createTablesIfNeedBe() {

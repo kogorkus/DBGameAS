@@ -21,14 +21,19 @@
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
             android:name="ru.samsung.itschool.dbgame.HoFActivity"
             android:label="@string/title_activity_ho_f" />
         <activity android:name="ru.samsung.itschool.dbgame.StatActivity" />
+        <activity android:name="ru.samsung.itschool.dbgame.Main2Activity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

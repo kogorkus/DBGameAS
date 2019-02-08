@@ -16,6 +16,7 @@ public class HoFActivity extends Activity {
 		dbManager = DBManager.getInstance(this);
 		
 		TextView restv = (TextView)this.findViewById(R.id.results);
+
 		ArrayList<Result> results = dbManager.getAllResults();
 		String resStr = "";
 		for (Result res : results)
