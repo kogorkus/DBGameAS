@@ -42,7 +42,7 @@ public class DBManager {
 	ArrayList<Result> getAllResults() {
 
 		ArrayList<Result> data = new ArrayList<Result>();
-		Cursor cursor = db.rawQuery("SELECT * FROM RESULTS;", null);
+		Cursor cursor = db.rawQuery("SELECT * FROM RESULTS ORDER BY SCORE DESC;", null);
 		boolean hasMoreData = cursor.moveToFirst();
 
 		while (hasMoreData) {
@@ -77,6 +77,13 @@ public class DBManager {
 	private void createTablesIfNeedBe() {
 		db.execSQL("CREATE TABLE IF NOT EXISTS RESULTS (USERNAME TEXT, SCORE INTEGER);");
 	}
+
+	public void deleteElement(String player, int score)
+	{
+		db.execSQL("DELETE FROM RESULTS WHERE SCORE = " + score);
+	}
+
+
 
 	private boolean dbExist() {
 		File dbFile = context.getDatabasePath(DB_NAME);

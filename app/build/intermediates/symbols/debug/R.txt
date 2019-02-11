@@ -560,6 +560,7 @@ int drawable notification_tile_bg 0x7f02005e
 int drawable notify_panel_notification_icon_bg 0x7f02005f
 int drawable smallgreen 0x7f020060
 int id GameResult 0x7f0a005f
+int id MyList 0x7f0a005c
 int id TxtItem 0x7f0a006f
 int id action0 0x7f0a0073
 int id action_bar 0x7f0a004d
@@ -635,7 +636,6 @@ int id playerName 0x7f0a005e
 int id progress_circular 0x7f0a0005
 int id progress_horizontal 0x7f0a0006
 int id radio 0x7f0a0046
-int id results 0x7f0a005c
 int id right_icon 0x7f0a007f
 int id right_side 0x7f0a007a
 int id screen 0x7f0a001d

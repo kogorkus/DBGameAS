@@ -73,12 +73,16 @@ ADDED from /home/student2/StudioProjects/prj/DBGameAS/app/src/main/AndroidManife
 		ADDED from /home/student2/StudioProjects/prj/DBGameAS/app/src/main/AndroidManifest.xml:21:13-45
 	android:name
 		ADDED from /home/student2/StudioProjects/prj/DBGameAS/app/src/main/AndroidManifest.xml:20:13-41
-intent-filter#android.intent.action.MAIN
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
 ADDED from /home/student2/StudioProjects/prj/DBGameAS/app/src/main/AndroidManifest.xml:22:13-25:29
 action#android.intent.action.MAIN
 ADDED from /home/student2/StudioProjects/prj/DBGameAS/app/src/main/AndroidManifest.xml:23:17-69
 	android:name
 		ADDED from /home/student2/StudioProjects/prj/DBGameAS/app/src/main/AndroidManifest.xml:23:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/student2/StudioProjects/prj/DBGameAS/app/src/main/AndroidManifest.xml:24:17-77
+	android:name
+		ADDED from /home/student2/StudioProjects/prj/DBGameAS/app/src/main/AndroidManifest.xml:24:27-74
 activity#ru.samsung.itschool.dbgame.HoFActivity
 ADDED from /home/student2/StudioProjects/prj/DBGameAS/app/src/main/AndroidManifest.xml:27:9-29:59
 	android:label
@@ -93,9 +97,5 @@ activity#ru.samsung.itschool.dbgame.Main2Activity
 ADDED from /home/student2/StudioProjects/prj/DBGameAS/app/src/main/AndroidManifest.xml:31:9-37:20
 	android:name
 		ADDED from /home/student2/StudioProjects/prj/DBGameAS/app/src/main/AndroidManifest.xml:31:19-48
-intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+intent-filter#android.intent.action.MAIN
 ADDED from /home/student2/StudioProjects/prj/DBGameAS/app/src/main/AndroidManifest.xml:32:13-36:29
-category#android.intent.category.LAUNCHER
-ADDED from /home/student2/StudioProjects/prj/DBGameAS/app/src/main/AndroidManifest.xml:35:17-77
-	android:name
-		ADDED from /home/student2/StudioProjects/prj/DBGameAS/app/src/main/AndroidManifest.xml:35:27-74

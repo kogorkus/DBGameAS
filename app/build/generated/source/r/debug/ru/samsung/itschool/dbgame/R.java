@@ -2256,6 +2256,7 @@ containing a value of this type.
     }
     public static final class id {
         public static final int GameResult=0x7f0a005f;
+        public static final int MyList=0x7f0a005c;
         public static final int TxtItem=0x7f0a006f;
         public static final int action0=0x7f0a0073;
         public static final int action_bar=0x7f0a004d;
@@ -2331,7 +2332,6 @@ containing a value of this type.
         public static final int progress_circular=0x7f0a0005;
         public static final int progress_horizontal=0x7f0a0006;
         public static final int radio=0x7f0a0046;
-        public static final int results=0x7f0a005c;
         public static final int right_icon=0x7f0a007f;
         public static final int right_side=0x7f0a007a;
         public static final int screen=0x7f0a001d;
